@@ -15,7 +15,7 @@ html {
   min-height: 800px;
   margin: 20px auto;
   padding: 0 20px;
-  background-image: url("../obrazek/tło.jpg");
+  background-image: url("..public/tlo.jpg");
   background-position: center;
   background-size:contain;
 }
