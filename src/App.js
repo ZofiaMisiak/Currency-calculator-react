@@ -1,8 +1,10 @@
 import React from "react";
 function App() {
   return (
-    <div> Dzień dobry!
-    </div>
+    
+    <div style={{ backgroundImage: "url(public/img/tlo.png)" }}>
+    Hello World
+  </div>
   );
 }
 
