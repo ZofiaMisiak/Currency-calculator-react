@@ -2,7 +2,7 @@ import React from "react";
 function App() {
   return (
     
-    <div style={{ backgroundImage: "url(public/img/tlo.png)" }}>
+    <div>
     Hello World
   </div>
   );
