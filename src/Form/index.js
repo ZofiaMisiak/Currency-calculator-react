@@ -1,7 +1,7 @@
-import { currencies } from "../Currency";
+import { currencies } from "../Currencies";
 import { useState } from "react";
 import { Result } from "./Result";
-import { Button, Field, LabelText, Legend, Fieldset, StyledForm, AdditionalInformation } from "./index.css";
+import { Button, Field, LabelText, Legend, Fieldset, StyledForm, AdditionalInformation } from "./styled";
 
 const Form = () => {
   const [amount, setAmount] = useState("");
@@ -26,14 +26,14 @@ const Form = () => {
   return (
     <StyledForm onSubmit={onFormSubmit}>
       <Fieldset>
-        <Legend>Kalkulator walut</Legend>
+        <Legend>CURRENCY CALCULATOR</Legend>
         <p>
           <label>
             <LabelText>
-              Kwota w zł: *
+              Amount in PLN (zł):*
             </LabelText>
             <Field
-              placeholder="Kwota w zł"
+              placeholder="Amount in PLN (zł)"
               type="number" min="0"
               step={0.01}
               required
@@ -45,7 +45,7 @@ const Form = () => {
         <p>
           <label>
             <LabelText>
-              Wybierz walutę: *
+              Choose currency: *
             </LabelText>
             <Field
               as="select"
@@ -62,11 +62,11 @@ const Form = () => {
           </label>
         </p>
         <p>
-          <Button>Oblicz</Button>
+          <Button>Count!</Button>
         </p>
         <Result result={result} />
-        <AdditionalInformation>*Pole obowiązkowe do wypełnienia</AdditionalInformation>
-        <AdditionalInformation>Obliczenia wykonano dla kursu walut z dnia 3.11.2022.</AdditionalInformation>
+        <AdditionalInformation>*Required field</AdditionalInformation>
+        <AdditionalInformation>Exchange rate from 08. 01. 2023.</AdditionalInformation>
       </Fieldset>
     </StyledForm>
   );

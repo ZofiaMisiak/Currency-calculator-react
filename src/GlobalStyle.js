@@ -1,4 +1,7 @@
-import 
+import { createGlobalStyle } from "styled-components";
+// import tlo from "./tlo.jpg";
+
+export const GlobalStyle = createGlobalStyle`
 
 html {
   box-sizing: border-box;
@@ -17,7 +20,10 @@ html {
   min-height: 800px;
   margin: 20px auto;
   padding: 0 20px;
-  background-image: url ("${tlo.jpg}");
+
   background-position: center;
   background-size:contain;
 }
+`;
+
+  // background-image: url ("${tlo}");
