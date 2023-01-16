@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-// import tlo from "./tlo.jpg";
+ import tlo from "./tlo.jpg";
 
 export const GlobalStyle = createGlobalStyle`
 
