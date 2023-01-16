@@ -25,5 +25,3 @@ html {
   background-size:contain;
 }
 `;
-
-  // background-image: url ("${tlo}");
