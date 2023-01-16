@@ -1,8 +1,8 @@
 {
-  "name": "Currency-calculator-react",
+  "name": "currency-calculator-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zofiamisiak.github.io/Currency-calculator-react/",
+  "homepage": ".",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",
