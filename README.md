@@ -1,7 +1,7 @@
 # Welcome in my simply currency calculator, enjoy!
-* You can check how mucch PLN You have got in four diferent currencies 
+* You can check how much PLN You have got in four diferent currencies 
 
-💲  EURO, POUND STERLING, SWISS FRANC, AMERICAN DOLAR 💲
+💲  EURO,  POUND STERLING,   SWISS FRANC,  AMERICAN DOLAR 💲
 
 ## Technology:
 HTML
