@@ -2,6 +2,7 @@ import { currencies } from "../Currencies";
 import { useState } from "react";
 import { Result } from "./Result";
 import { Button, Field, LabelText, Legend, Fieldset, StyledForm, AdditionalInformation } from "./styled";
+import { Clock } from "../Clock";
 
 const Form = () => {
   const [amount, setAmount] = useState("");
@@ -25,6 +26,7 @@ const Form = () => {
 
   return (
     <StyledForm onSubmit={onFormSubmit}>
+      <Clock/>
       <Fieldset>
         <Legend>CURRENCY CALCULATOR</Legend>
         <p>
