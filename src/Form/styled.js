@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledForm = styled.form`
  flex-basis:300px;
+ widith: 33,3 %;
  `;
 
 
@@ -11,7 +12,7 @@ export const Fieldset = styled.fieldset`
     border-radius: 5px;
     margin: 20px 0;
     background-color: rgba(249, 192, 239, 0.869);
-    flex-basis:300px;
+    widith: 33,3 %;
 `;
 
 export const Legend = styled.legend`
