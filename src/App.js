@@ -4,9 +4,9 @@
     
     function App() {
       return (
-        <><Clock /><Container>
+        <Container>
           <Form />
-        </Container></>   
+        </Container>
       );
     }
     
