@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.e7e9290c.css","mappings":"AAAA,OAGI,aAAuB,CADvB,qBAAsB,CADtB,gBAGJ","sources":["Clock/style.css"],"sourcesContent":[".clock {\r\n    text-align: right;\r\n    font-family: monospace;\r\n    color:rgb(246, 27, 206);\r\n}"],"names":[],"sourceRoot":""}
