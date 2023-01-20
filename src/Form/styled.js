@@ -6,7 +6,6 @@ export const StyledForm = styled.form`
 
 
 export const Fieldset = styled.fieldset`
-    position: relative;
     border: 1px solid rgb(243, 134, 134);
     padding: 20px;
     border-radius: 5px;
