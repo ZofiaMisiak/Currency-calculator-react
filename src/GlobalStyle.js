@@ -19,7 +19,6 @@ html {
   min-height: 800px;
   margin: 20px auto;
   padding: 0 20px;
-
   background-position: center;
   background-size:contain;
 }

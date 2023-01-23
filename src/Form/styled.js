@@ -31,8 +31,8 @@ export const LabelText = styled.span`
 `;
 
 export const Field = styled.input`
-    width: 100%;
-    max-width: 250px;
+    width: 80%;
+    max-width: 300px;
     border: 1px solid rgb(6, 6, 6);
     border-radius: 5px;
     padding: 5px;
@@ -42,7 +42,7 @@ export const Field = styled.input`
 
 export const Button = styled.button`
     padding: 10px;
-    width: 100%;
+    width: 80%;
     background-color: rgb(237, 100, 232);
     border: none;
     border-radius: 7px;
