@@ -11,7 +11,7 @@ BEM,
 FLEX,
 GIT,
 React,
-Date
+Data imported from API
 ![tło strony](https://raw.githubusercontent.com/ZofiaMisiak/currency-calculator-react/main/public/tlo.jpg)
 ## Demo
 https://zofiamisiak.github.io/currency-calculator-react/
