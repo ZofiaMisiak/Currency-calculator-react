@@ -4,14 +4,14 @@
 💲  EURO,  POUND STERLING,   SWISS FRANC,  AMERICAN DOLAR 💲
 
 ## Technology:
-HTML
-CSS
-JavaScript
-BEM
-FLEX
-GIT
-React
-Date
+HTML,
+CSS,
+JavaScript,
+BEM,
+FLEX,
+GIT,
+React,
+Data imported from API
 ![tło strony](https://raw.githubusercontent.com/ZofiaMisiak/currency-calculator-react/main/public/tlo.jpg)
 ## Demo
 https://zofiamisiak.github.io/currency-calculator-react/
