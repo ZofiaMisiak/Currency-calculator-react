@@ -4,7 +4,6 @@ import Container from "./Container";
 function App() {
   return (
     <Container>
-      <Clock />
       <Form />
     </Container>
   );
